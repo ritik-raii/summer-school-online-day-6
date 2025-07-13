@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-
 function TodoInput({ onAdd }) {
   const [input, setInput] = useState('');
-
   const handleSubmit = (e) => {
     e.preventDefault();
     onAdd(input);
     setInput('');
   };
-
   return (
     <form className="todo-input" onSubmit={handleSubmit}>
       <input
@@ -21,5 +18,4 @@ function TodoInput({ onAdd }) {
     </form>
   );
 }
-
 export default TodoInput;
