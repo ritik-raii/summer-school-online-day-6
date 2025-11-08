@@ -1,2 +1,2 @@
-# summer-school-online-day-6
+# To-Do App
 React To-Do App with Timestamp
